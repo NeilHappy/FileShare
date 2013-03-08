@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESS_DENIED	server.py	/^ACCESS_DENIED=200$/;"	v
+AccessDenied	server.py	/^class AccessDenied(Fault):$/;"	c	inherits:Fault
+Client	client.py	/^class Client(Cmd):$/;"	c	inherits:Cmd
+Cmd	client.py	/^form cmd import Cmd$/;"	i
+Fault	client.py	/^from xmlrpclib import ServerProxy,Fault$/;"	i
+Fault	server.py	/^from xmlrpclib import ServerProxy,Fault$/;"	i
+HEAD_START	client.py	/^HEAD_START=0.1$/;"	v
+MAX_HISTORY_LENGTH	server.py	/^MAX_HISTORY_LENGTH=6$/;"	v
+Node	client.py	/^from server import Node,UNHANDLED$/;"	i
+Node	server.py	/^class Node:$/;"	c	inherits:
+SECRET_LENGTH	client.py	/^SECRET_LENGTH=100$/;"	v
+ServerProxy	client.py	/^from xmlrpclib import ServerProxy,Fault$/;"	i
+ServerProxy	server.py	/^from xmlrpclib import ServerProxy,Fault$/;"	i
+SimpleXMLRPCServer	server.py	/^from SimpleXMLRPCServer import SimpleXMLRPCServer$/;"	i
+Thread	client.py	/^from threading import Thread$/;"	i
+UNHANDLED	client.py	/^from server import Node,UNHANDLED$/;"	i
+UNHANDLED	server.py	/^UNHANDLED=100$/;"	v
+UnhandledQuery	server.py	/^class UnhandledQuery(Fault):$/;"	c	inherits:Fault
+__init__	client.py	/^    def __init__(self,url,dirname,urlfile):$/;"	m	class:Client	access:public
+__init__	server.py	/^    def __init__(elf,url,dirname,secret):$/;"	m	class:Node	access:public
+__init__	server.py	/^    def __init__(self,ACCESS_DENIED,message)$/;"	m	class:AccessDenied	access:public
+__init__	server.py	/^    def __init__(self,message="Couldn't handle the query"):$/;"	m	class:UnhandledQuery	access:public
+_broadcast	server.py	/^    def _broadcast(self,query,history):$/;"	m	class:Node	access:public
+_handle	server.py	/^    def _handle(self,query):$/;"	m	class:Node	access:public
+_start	server.py	/^    def _start(self):$/;"	m	class:Node	access:public
+abspath	server.py	/^from os.path import join,abspath,isfile$/;"	i
+choice	client.py	/^from random import choice$/;"	i
+do_EOF	client.py	/^    do_EOF=do_exit #End-Of-File  is synonymous with 'exit'$/;"	v	class:Client
+do_exit	client.py	/^    def do_exit(self,arg):$/;"	m	class:Client	access:public
+do_fetch	client.py	/^    def do_fetch(self,arg):$/;"	m	class:Client	access:public
+fetch	server.py	/^    def fetch(self,query,secret):$/;"	m	class:Node	access:public
+getPort	server.py	/^def getPort(url):$/;"	f	access:public
+hello	server.py	/^    def hello(self,other):$/;"	m	class:Node	access:public
+inside	server.py	/^def inside(dir,name):   $/;"	f	access:public
+isfile	server.py	/^from os.path import join,abspath,isfile$/;"	i
+join	server.py	/^from os.path import join,abspath,isfile$/;"	i
+lowercase	client.py	/^from string import lowercase$/;"	i
+main	client.py	/^def main():$/;"	f	access:public
+main	server.py	/^def main():$/;"	f	access:public
+prompt	client.py	/^    prompt='>'$/;"	v	class:Client
+query	server.py	/^    def query(self,query,history=[]):$/;"	m	class:Node	access:public
+randomString	client.py	/^def randomString(length):$/;"	f	access:public
+sleep	client.py	/^from time import sleep$/;"	i
+sys	client.py	/^import sys$/;"	i
+sys	server.py	/^import sys$/;"	i
+urlparse	server.py	/^from urlparse import urlparse$/;"	i
